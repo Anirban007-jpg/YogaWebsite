@@ -28,7 +28,7 @@ const Classes = () => {
                 
             </div>
             <div className={styles.classInfo}>
-                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">5 pm</p><p>Rs 600 per month</p>
+                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">5 pm</p><p></p>
             </div>
         </div>
         <div className={styles.classContainer}>
@@ -37,7 +37,7 @@ const Classes = () => {
                 
             </div>
             <div className={styles.classInfo}>
-                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">9 am</p><p>Rs 600 per month</p>
+                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">9 am</p><p></p>
             </div>
         </div>
         
