@@ -11,7 +11,7 @@ export default function Home() {
         <title></title>
         <meta
           name="description"
-          content=""
+          content="Yoga Classes"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

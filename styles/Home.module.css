@@ -1,14 +1,14 @@
 /* ================= HERO ================= */
 
 .hero {
-  height: 200px;
+  height: 50px;
   margin: 0 -3em;
   background: linear-gradient(
       58deg,
       rgba(32, 153, 139, 0.6) 0%,
       rgba(32, 153, 139, 0.6) 100%
     ),
-    url(../public/images/restorative-yoga-savasana.jpg) no-repeat;
+    url(https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYXxlbnwwfHwwfHx8MA%3D%3D) no-repeat;
   background-size: cover;
   background-position: 50% 45%;
   position: relative;
