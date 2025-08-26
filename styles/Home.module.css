@@ -1,0 +1,278 @@
+/* ================= HERO ================= */
+
+.hero {
+  height: 200px;
+  margin: 0 -3em;
+  background: linear-gradient(
+      58deg,
+      rgba(32, 153, 139, 0.6) 0%,
+      rgba(32, 153, 139, 0.6) 100%
+    ),
+    url(../public/images/restorative-yoga-savasana.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 45%;
+  position: relative;
+}
+
+@media only screen and (min-width: 600px) {
+ .hero {
+   height: 300px;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+ .hero {
+   height: 400px;
+ }
+}
+
+.heroCopy {
+  display: none;
+}
+
+.heroPrice {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+.heroCopy {
+  display: block;
+  width: 30%;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+  color: var(--pale-cream);
+}
+
+.heroCopy span {
+  font-weight: 600;
+  
+}
+.heroPrice {
+  background-color: var(--soft-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.heroPrice p {
+  margin: 0;
+}
+}
+
+@media only screen and (min-width: 992px) {
+.heroCopy {
+  font-size: 1.3rem;
+}
+}
+@media only screen and (min-width: 1200px) {
+.heroCopy {
+  font-size: 1.4rem;
+}
+}
+
+/* ================= INFO BOXES ================= */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 2em auto;
+}
+
+.infoFlow,
+.infoRestorative,
+.infoQuote {
+  padding: 0 2em;
+}
+
+.info p {
+  width: 100%;
+}
+
+.infoFlow {
+  background-color: var(--teal);
+  color: var(--pale-cream);
+  position: relative;
+}
+
+.infoRestorative {
+  background-color: var(--caramel);
+  position: relative;
+}
+
+.infoImg {
+  opacity: 0.5;
+}
+
+.lotus,
+.meditation {
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  display: none;
+}
+
+.infoQuote {
+  background-color: var(--soft-pink);
+  font-weight: 600;
+  position: relative;
+}
+
+.quoteMarks {
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  right: -25px;
+  display: none;
+}
+
+.infoOverview {
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.infoOverviewCopy {
+  display: block;
+  flex-basis: 150px;
+  flex-grow: 1;
+}
+
+.infoOverviewImg {
+  align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .infoOverviewImg {
+  width: 60%;
+  }
+  .infoOverview {
+  width: 80%}
+
+  .lotus,
+  .meditation,
+  .quoteMarks {
+    display: block;
+  }
+  .info {
+    width: 80%;
+  }
+  .info p {
+    width: 80%;
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+  .infoOverview {
+    margin: 4em auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .infoOverviewCopy {
+    display: block;
+    flex-basis: 150px;
+    flex-grow: 1;
+  }
+
+  .infoOverviewImg {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .info {
+    flex-direction: row;
+    width: 80%;
+  }
+  .lotus,
+  .meditation {
+    width: 60px;
+  }
+
+  .quoteMarks {
+    width: 40px;
+  }
+}
+
+
+/* ================= MAILING LIST ================= */
+
+.mailingListSection {
+  background-color: var(--caramel);
+  margin: 0 -3em;
+  padding-bottom: 2em;
+}
+
+
+.mailingList {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+ .form {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+ }
+
+@media only screen and (min-width: 600px ) {
+ .mailingList {
+    width: 70%;
+ }
+}
+
+
+@media only screen and (min-width: 992px ) {
+ .mailingList {
+    width: 50%;
+ }
+  .form {
+   flex-direction: row;
+ }  
+}
+
+.input {
+  padding: 1em;
+  border-radius: 4px;
+  border: none;
+}
+
+/* ================= BLOG ================= */
+
+.latest-blog-title {
+  text-align: center;
+  margin: 2em;
+}
+
+.latest-blog {
+  width: 80%;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+.blog-thumbnail {
+  width: 100%;
+}
+
+.latest-blog button {
+  display: block;
+  margin: 0 auto;
+}
