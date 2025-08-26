@@ -66,12 +66,12 @@ export default function Home() {
 
         <div className={styles.infoOverview}>
           <div className={styles.infoOverviewImg}>
-            {/* <Image
-              src="asd"
-              alt="dads"
+            <Image
+              src="/images/5.jpg"
+              alt=""
               width={2500}
-              height={1667}
-            /> */}
+              height={2900}
+            />
           </div>
           <div className={styles.infoOverviewCopy}>
             <h2>Yoga to quieten the mind – classes coming soon!</h2>
