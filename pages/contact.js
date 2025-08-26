@@ -75,6 +75,7 @@ const Contact = () => {
   );
 
   return (
+    <div>
     <div className={styles.container}>
       <h1>Get in touch</h1>
       <p>
@@ -82,13 +83,12 @@ const Contact = () => {
         me on social media.
       </p>
       {formVisible ? ContactForm : ConfirmationMessage}
-      <p>
-        <p className="font-extrabold">Address: 4/20, Nandalal Bithi, City Center, Durgapur - 713216, West Bengal Paschim Burdwan</p>
-        <p className="font-extrabold">Contact No : 8250359959</p>
-        Follow me on{" "}
-        <a href="https://instagram.com/debbiedannyoga">Instagram</a> or{" "}
-        <a href="https://www.facebook.com/debbiedannyoga">Facebook</a>.
+      </div>
+      <p style={{width:"95%", marginTop: "20px", marginLeft:"auto", fontWeight: "bold"}}>
+        Address: 4/20, Nandalal Bithi, City Center, Durgapur - 713216, West Bengal Paschim Burdwan
       </p>
+      <p style={{width:"95%", marginTop: "20px", marginLeft:"auto", fontWeight: "bold"}}>Contact No : 8250359959 </p>
+   
     </div>
   );
 };

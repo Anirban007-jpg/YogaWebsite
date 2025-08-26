@@ -24,11 +24,20 @@ const Classes = () => {
         <h2>Offline classes</h2>
         <div className={styles.classContainer}>
             <div className={styles.classInfo}>
-                <h4>At Home</h4>
+                <h4>At Home (Batch 1)</h4>
                 
             </div>
             <div className={styles.classInfo}>
-                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">5 pm</p><p></p>
+                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">5 pm</p><p>Rs 600 per month</p>
+            </div>
+        </div>
+        <div className={styles.classContainer}>
+            <div className={styles.classInfo}>
+                <h4>At Home (Batch 2)</h4>
+                
+            </div>
+            <div className={styles.classInfo}>
+                <p className="font-bold justify-between">Mon to Fri</p>{" "}<p className="font-bold">9 am</p><p>Rs 600 per month</p>
             </div>
         </div>
         

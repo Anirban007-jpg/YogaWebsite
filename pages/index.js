@@ -24,8 +24,13 @@ export default function Home() {
               of your own home.
             </p>
           </div>
+            <div className={styles.heroPrice}>
+            <h3>Rs 600</h3>
+            <p>per month</p>
+          </div>
+          </div>
         
-        </div>
+
 
         <div className={styles.info}>
           <div className={styles.infoFlow}>
