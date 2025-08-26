@@ -8,9 +8,8 @@ const Footer = () => {
     <footer>
       <div>
         <p>
-          Hi, I’m Debbie! I am a proud mum of two girls and live in Andover,
-          Hampshire. I completed my Yoga Alliance Professional accredited RYT
-          200hrs teacher training with Jill Jones Yoga. Doing yoga and
+          Hi, I’m Susmita Banerjee! I am a proud mum of one boy and i live in West Bengal,
+          India. I am a district champion teacher and also provide training with Shailee in City Center. Doing yoga and
           meditation keeps me calm and helps me cope with daily family life.
         </p>
       </div>
