@@ -9,7 +9,7 @@ const Footer = () => {
       <div>
         <p>
           Hi, I’m Susmita Banerjee! I am a proud mum of one boy and i live in West Bengal,
-          India. I am a district champion teacher and also provide training with Shailee in City Center. Doing yoga and
+          India. I am a yoga instructor and also provide training with Shailee in City Center as a teacher. Doing yoga and
           meditation keeps me calm and helps me cope with daily family life.
         </p>
       </div>
