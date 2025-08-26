@@ -79,8 +79,7 @@ const Contact = () => {
     <div className={styles.container}>
       <h1>Get in touch</h1>
       <p>
-        If you have any questions please complete the form below or reach out to
-        me on social media.
+        If you have any questions please complete the form below.
       </p>
       {formVisible ? ContactForm : ConfirmationMessage}
       </div>
