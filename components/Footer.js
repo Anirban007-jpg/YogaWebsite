@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <p>
-          Hi, I’m Susmita Banerjee! I am a proud mum of one boy and i live in West Bengal,
+        <p style={{fontWeight: "bold"}}>
+          I’m Susmita Banerjee! I am a proud mum of one boy and i live in West Bengal,
           India. I am a yoga instructor and also provide training with Shailee in City Center as a teacher. Doing yoga and
           meditation keeps me calm and helps me cope with daily family life.
         </p>
@@ -35,15 +35,15 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="footer-nav">
+      <div className="footer-nav" >
         <Link href="/">
-          <a>Home</a>
+          <a style={{fontWeight: "bold"}}>Home</a>
         </Link>
         <Link href="/blog">
-          <a>Blog</a>
+          <a style={{fontWeight: "bold"}}>Blog</a>
         </Link>
         <Link href="/contact">
-          <a>Contact</a>
+          <a style={{fontWeight: "bold"}}>Contact</a>
         </Link>
       </div>
     </footer>
