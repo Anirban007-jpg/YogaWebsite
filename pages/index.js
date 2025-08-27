@@ -94,7 +94,7 @@ export default function Home() {
           <div className={styles.mailingList}>
     
             <p>
-              
+              <h2>Screenshots</h2>
             </p>
            
           </div>
