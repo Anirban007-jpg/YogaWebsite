@@ -92,7 +92,7 @@ export default function Home() {
 
         <div className={styles.mailingListSection}>
           <div className={styles.mailingList}>
-            <h2>Testimonials</h2>
+    
             <p>
               
             </p>

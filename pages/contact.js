@@ -86,7 +86,7 @@ const Contact = () => {
       <p style={{width:"95%", marginTop: "20px", marginLeft:"auto", fontWeight: "bold"}}>
         Address: 4/20, Nandalal Bithi, City Center, Durgapur - 713216, West Bengal Paschim Burdwan
       </p>
-      <p style={{width:"95%", marginTop: "20px", marginLeft:"auto", fontWeight: "bold"}}>Contact No : 6295357586 </p>
+      <p style={{width:"95%", marginTop: "20px", marginLeft:"auto", fontWeight: "bold"}}>Contact No : +91 6295357586 </p>
    
     </div>
   );
