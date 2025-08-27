@@ -70,7 +70,7 @@ export default function Home() {
               src="/images/5.jpg"
               alt=""
               width={2500}
-              height={2900}
+              height={4400}
             />
           </div>
           <div className={styles.infoOverviewCopy}>
